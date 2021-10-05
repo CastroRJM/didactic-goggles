@@ -5,12 +5,15 @@
 }
 
 .container {
+  height: 500px;
+  max-height: 500px;
   border: 1px solid black;
   max-width: 1200px;
   width: 90%;
   margin: 2em auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
